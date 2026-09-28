@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quase Terminando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="caixa">
+        <div class="aviso">SISTEMA: validação normalizada parcialmente.</div>
+
+        <h1>Mais algumas informações</h1>
+        <p class="subtitulo">Agora ficou um pouco mais complicado.</p>
+
+        <div class="progresso">PASSO 2 DE 3</div>
+
+        <label>Crie uma senha</label>
+        <input id="senha" type="password" placeholder="Sua senha extremamente simples">
+
+        <p class="regra">
+            A senha deve ter exatamente 8 caracteres, pelo menos uma letra,
+            um número, uma letra maiúscula e NÃO pode conter números.
+        </p>
+
+        <label>Confirme a senha</label>
+        <input id="confirmar" type="password" placeholder="Digite novamente">
+
+        <label class="checkbox">
+            <input id="termos" type="checkbox">
+            Eu li os termos que não estão disponíveis.
+        </label>
+
+        <button class="misterioso" onclick="validarCadastro()">FINALIZAR CANCELAMENTO</button>
+
+        <p id="mensagem2" class="mensagem"></p>
+
+        <div class="ajuda">
+            <strong>Precisa de ajuda?</strong><br>
+            Não existe ajuda. Boa sorte.
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

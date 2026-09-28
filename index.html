@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Muito Simples™</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="caixa">
+        <div class="aviso">⚠ ATENÇÃO: talvez este botão não faça o que você espera.</div>
+
+        <h1>Cadastro Muito Simples™</h1>
+        <p class="subtitulo">É rápido. Provavelmente.</p>
+
+        <div class="progresso">PASSO 1 DE 3 — ou talvez 2 de 4</div>
+
+        <label>Seu nome (obrigatório, mas não sabemos por quê)</label>
+        <input id="nome" type="text" placeholder="Digite seu nome">
+
+        <label>Seu e-mail (não confie neste campo)</label>
+        <input id="email" type="email" placeholder="exemplo@email.com">
+
+        <div class="botoes">
+            <button class="cancelar" onclick="cancelar()">CANCELAR</button>
+            <button class="avancar" onclick="irCadastro()">Avançar →</button>
+        </div>
+
+        <p id="mensagem" class="mensagem"></p>
+
+        <small>Dica: o botão cinza é importante. Não clique no verde se quiser continuar.</small>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
